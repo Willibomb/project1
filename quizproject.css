@@ -126,7 +126,7 @@ body {
 
 #retrybox{
 	position: fixed;
-	bottom: 5vh;
+	bottom: 7vh;
 	left: 0px;
 	right: 0px;
 	margin-right: auto;
@@ -141,14 +141,16 @@ body {
 
 #hint{
 	color: blue;
+  padding: 5px;
+  border-style: solid;
 }
 
 #halve{
 	color: blue;
+  padding: 5px;
+  border-style: solid;
 }
-#moreTime{
-	color: blue;
-}
+
 /* Desktop Version */
 @media (min-width: 768px) {
 	
@@ -160,4 +162,14 @@ body {
 
   
   }
+  #retrybox{
+	position: fixed;
+	bottom: 5vh;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(0,0,0,0.8);
+}
+
 }
